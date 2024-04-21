@@ -10,8 +10,6 @@ const port = 3000;
 
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://localhost/match_ideas', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
 });
 
 const db = mongoose.connection;
